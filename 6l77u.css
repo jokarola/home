@@ -1,0 +1,52 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "a1";
+  font-weight: normal;
+  src: local("a1"), url("a1.ttf") format("truetype");
+}
+@font-face {
+  font-family: "a2";
+  font-weight: normal;
+  src: local("a2"), url("a2.ttf") format("truetype");
+}
+@font-face {
+  font-family: "a3";
+  font-weight: normal;
+  src: local("a3"), url("a3.ttf") format("truetype");
+}
+@font-face {
+  font-family: "a4";
+  font-weight: normal;
+  src: local("a4"), url("a4.ttf") format("truetype");
+}
+@font-face {
+  font-family: "a5";
+  font-weight: normal;
+  src: local("a5"), url("a5.ttf") format("truetype");
+}
+.kk-star-ratings { width: 120px; min-height: 48px; }
+.kk-star-ratings.top-left, .kk-star-ratings.top-right { margin-top: 3px; }
+.kk-star-ratings.rgt { float: right; margin-left: 10px; }
+.kk-star-ratings .kksr-stars { height: 24px; position: relative; }
+.kk-star-ratings .kksr-star { background-position: 0px 0px; }
+.kk-star-ratings .kksr-star.gray { background-image: url("gray.png"); }
+.kk-star-ratings .kksr-star.yellow { background-image: url("yellow.png"); }
+.kk-star-ratings .kksr-stars .kksr-fuel { height: 24px; position: absolute; top: 0px; left: 0px; z-index: 0; }
+.kk-star-ratings .kksr-stars a { width: 24px; height: 24px; float: left; position: relative; z-index: 1; text-decoration: none; border: 0px none; }
+.kk-star-ratings .kksr-stars a:focus { text-decoration: none; border: 0px none; outline: medium none; }
+.kk-star-ratings .kksr-legend { font-size: 12px; color: rgb(153, 153, 153); text-align: center; line-height: 18px; padding: 3px; font-family: Arial,Helvetica,sans-serif; }
+.kk-star-ratings .kksr-stars, .kk-star-ratings .kksr-stars .kksr-fuel, .kk-star-ratings .kksr-stars a { background-color: transparent !important; }
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fontawesome-webfont.eot") format("embedded-opentype"), url("fontawesome-webfont.woff2") format("woff2"), url("fontawesome-webfont.woff") format("woff"), url("fontawesome-webfont.ttf") format("truetype"), url("fontawesome-webfont.svg") format("svg");
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}
+@keyframes fa-spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(359deg); }
+}

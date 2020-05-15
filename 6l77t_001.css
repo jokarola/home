@@ -1,0 +1,13 @@
+/* Code tidied up by ScrapBook */
+.container { width: 1000px; margin: 0px auto; }
+.sidebar.right { position: relative; float: right; overflow: hidden; padding-bottom: 20px; height: 100%; width: 272px; }
+#header li ul { display: none; position: absolute; left: 0px; top: 45px; height: auto; min-width: 154px; }
+#mainmenu li, #secondarymenu li { position: relative; float: left; }
+.footer-widgets { padding-left: 3%; }
+.widgetf { float: left; width: 33%; }
+.footer_txt { padding-left: 50px; }
+#header .sub-menu li { background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; width: auto; float: none !important; display: block !important; clear: left; border-left-width: 0px !important; border-right-width: 0px !important; padding: 0px 15px !important; margin: -2px 10px 0px; text-align: center; line-height: 20px; height: 20px; overflow-wrap: normal; white-space: nowrap; }
+#header ul.children li a, #header .sub-menu li a { font-family: arial !important; border: medium none; font-size: 13px !important; text-transform: none; text-shadow: none !important; line-height: 20px; height: 20px; }
+#smthemes_share { position: absolute; height: 0px; left: 0px; top: 0px; width: 100%; z-index: 10; }
+#smthemes_share .inner { background: rgb(255, 255, 255) none repeat scroll 0% 0% padding-box; border: 1px solid rgb(187, 187, 187); border-radius: 5px; box-shadow: 1px 0px 15px rgba(0, 0, 0, 0.2); font-family: Arial; font-size: 10px; left: 15px; line-height: 16px; min-width: 60px; padding: 20px 5px 5px; text-align: center; width: 70px; display: block; position: absolute; top: 283px; }
+#smthemes_share li { text-align: center; margin-bottom: 20px; overflow: hidden; }
